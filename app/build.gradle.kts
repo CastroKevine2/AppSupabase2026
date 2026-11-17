@@ -36,7 +36,7 @@ android {
 dependencies {
     implementation(platform("io.github.jan-tennert.supabase:bom:3.6.0"))
     implementation("io.github.jan-tennert.supabase:postgrest-kt")
-    implementation("io.ktor:ktor-client-android:3.5.0")
+    implementation("io.ktor:ktor-client-okhttp:3.4.3")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.2")
 
     implementation(libs.androidx.activity.ktx)
